@@ -9,5 +9,5 @@ class Accounts(models.Model):
 
 
     def __str__(self):
-        return self.details
+        return str(self.acc_id)
     
